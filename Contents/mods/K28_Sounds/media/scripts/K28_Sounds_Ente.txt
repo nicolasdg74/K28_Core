@@ -1,0 +1,46 @@
+module Base
+{
+		
+	sound sonidos_Ente_001
+	{
+		category = UI,
+		clip { file = media/sound/ente/sonidos_Ente_001.ogg, is3D = true, volume = 0.40, }
+	}
+	
+	sound sonidos_Ente_002
+	{
+		category = UI,
+		clip { file = media/sound/ente/sonidos_Ente_002.ogg, is3D = true, volume = 0.40, }
+	}
+		
+	sound sonidos_Ente_003
+	{
+		category = UI,
+		clip { file = media/sound/ente/sonidos_Ente_003.ogg, is3D = true, volume = 0.40, }
+	}
+		
+	sound sonidos_Ente_004
+	{
+		category = UI,
+		clip { file = media/sound/ente/sonidos_Ente_004.ogg, is3D = true, volume = 0.40, }
+	}
+
+	sound sonidos_Ente_005
+	{
+		category = UI,
+		clip { file = media/sound/ente/sonidos_Ente_005.ogg, is3D = true, volume = 0.40, }
+	}
+		
+	sound sonidos_Ente_006
+	{
+		category = UI,
+		clip { file = media/sound/ente/sonidos_Ente_006.ogg, is3D = true, volume = 0.40, }
+	}
+		
+	sound sonidos_Ente_007
+	{
+		category = UI,
+		clip { file = media/sound/ente/sonidos_Ente_007.ogg, is3D = true, volume = 0.40, }
+	}
+		
+}

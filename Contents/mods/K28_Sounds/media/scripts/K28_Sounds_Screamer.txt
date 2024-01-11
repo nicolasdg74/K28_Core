@@ -1,0 +1,28 @@
+module Base
+{
+		
+	sound sonidos_screamer_001
+	{
+		category = UI,
+		clip { file = media/sound/screamer/osaka_screamer_001.ogg, is3D = true, volume = 0.40, }
+	}
+	
+	sound sonidos_screamer_002
+	{
+		category = UI,
+		clip { file = media/sound/screamer/osaka_screamer_002.ogg, is3D = true, volume = 0.40, }
+	}
+		
+	sound sonidos_screamer_003
+	{
+		category = UI,
+		clip { file = media/sound/screamer/osaka_screamer_003.ogg, is3D = true, volume = 0.40, }
+	}
+		
+	sound sonidos_screamer_004
+	{
+		category = UI,
+		clip { file = media/sound/screamer/osaka_screamer_004.ogg, is3D = true, volume = 0.40, }
+	}
+		
+}

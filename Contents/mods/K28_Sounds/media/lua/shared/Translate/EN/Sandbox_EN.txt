@@ -1,0 +1,4 @@
+Sandbox_EN = {
+    Sandbox_K28Sonidos = "K28 Sonidos",
+    Sandbox_K28Sonidos_Distancia = "Radio de los sonidos",
+}

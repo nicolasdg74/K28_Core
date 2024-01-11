@@ -1,0 +1,391 @@
+VERSION = 1,
+
+option CustomConsumption.TorchConsumption
+{
+	type = double, min = 0.0009, max = 1000, default = 1,
+	page = CustomConsumption, translation = TorchConsumption,
+}
+
+option CustomConsumption.HandTorchConsumption
+{
+	type = double, min = 0.0004, max = 1000, default = 1,
+	page = CustomConsumption, translation = HandTorchConsumption,
+}
+
+option CustomConsumption.LighterConsumption
+{
+	type = double, min = 0.03125, max = 1000, default = 1,
+	page = CustomConsumption, translation = LighterConsumption,
+}
+
+option CustomConsumption.MatchesConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = MatchesConsumption,
+}
+
+option CustomConsumption.LightbulbConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = LightbulbConsumption,
+}
+
+option CustomConsumption.ColoredLightbulbConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = ColoredLightbulbConsumption,
+}
+
+option CustomConsumption.CandleLitConsumption
+{
+	type = double, min = 0.003, max = 1000, default = 1,
+	page = CustomConsumption, translation = CandleLitConsumption,
+}
+
+option CustomConsumption.SubCategory
+{
+	type = boolean, default = 0,
+	page = CustomConsumption, translation = SubCategory,
+}
+
+option CustomConsumption.GeneratorConsumption
+{
+	type = double, min = 0.01, max = 1000, default = 1,
+	page = CustomConsumption, translation = GeneratorConsumption,
+}
+
+option CustomConsumption.BatteryConsumption
+{
+	type = double, min = 0.00001, max = 1000, default = 1,
+	page = CustomConsumption, translation = BatteryConsumption,
+}
+
+option CustomConsumption.CarBatteryConsumption
+{
+	type = double, min = 0.00001, max = 1000, default = 1,
+	page = CustomConsumption, translation = CarBatteryConsumption,
+}
+
+option CustomConsumption.PetrolCanConsumption
+{
+	type = double, min = 0.125, max = 1000, default = 1,
+	page = CustomConsumption, translation = PetrolCanConsumption,
+}
+
+option CustomConsumption.BlowTorchConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = BlowTorchConsumption,
+}
+
+option CustomConsumption.WeldingRodsConsumption
+{
+	type = double, min = 0.05, max = 1000, default = 1,
+	page = CustomConsumption, translation = WeldingRodsConsumption,
+}
+
+option CustomConsumption.PropaneTankConsumption
+{
+	type = double, min = 0.0625, max = 1000, default = 1,
+	page = CustomConsumption, translation = PropaneTankConsumption,
+}
+
+option CustomConsumption.SubCategory
+{
+	type = boolean, default = 0,
+	page = CustomConsumption, translation = SubCategory,
+}
+
+option CustomConsumption.DuctTapeConsumption
+{
+	type = double, min = 0.25, max = 1000, default = 1,
+	page = CustomConsumption, translation = DuctTapeConsumption,
+}
+
+option CustomConsumption.GlueConsumption
+{
+	type = double, min = 0.2, max = 1000, default = 1,
+	page = CustomConsumption, translation = GlueConsumption,
+}
+
+option CustomConsumption.WoodGlueConsumption
+{
+	type = double, min = 0.2, max = 1000, default = 1,
+	page = CustomConsumption, translation = WoodGlueConsumption,
+}
+
+option CustomConsumption.WireConsumption
+{
+	type = double, min = 0.2, max = 1000, default = 1,
+	page = CustomConsumption, translation = WireConsumption,
+}
+
+option CustomConsumption.ThreadConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = ThreadConsumption,
+}
+
+option CustomConsumption.TwineConsumption
+{
+	type = double, min = 0.2, max = 1000, default = 1,
+	page = CustomConsumption, translation = TwineConsumption,
+}
+
+option CustomConsumption.SubCategory
+{
+	type = boolean, default = 0,
+	page = CustomConsumption, translation = SubCategory,
+}
+
+option CustomConsumption.SoapConsumption
+{
+	type = double, min = 0.05, max = 1000, default = 1,
+	page = CustomConsumption, translation = SoapConsumption,
+}
+
+option CustomConsumption.CleaningLiquidConsumption
+{
+	type = double, min = 0.02, max = 1000, default = 1,
+	page = CustomConsumption, translation = CleaningLiquidConsumption,
+}
+
+option CustomConsumption.BleachConsumption
+{
+	type = double, min = 0.084, max = 1000, default = 1,
+	page = CustomConsumption, translation = BleachConsumption,
+}
+
+option CustomConsumption.TowelsConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = TowelsConsumption,
+}
+
+option CustomConsumption.SubCategory
+{
+	type = boolean, default = 0,
+	page = CustomConsumption, translation = SubCategory,
+}
+
+option CustomConsumption.DisinfectantConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = DisinfectantConsumption,
+}
+
+option CustomConsumption.AlcoholWipesConsumption
+{
+	type = double, min = 0.2, max = 1000, default = 1,
+	page = CustomConsumption, translation = AlcoholWipesConsumption,
+}
+
+option CustomConsumption.PillsConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = PillsConsumption,
+}
+
+option CustomConsumption.PillsAntiDepConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = PillsAntiDepConsumption,
+}
+
+option CustomConsumption.PillsBetaConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = PillsBetaConsumption,
+}
+
+option CustomConsumption.PillsSleepingTabletsConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = PillsSleepingTabletsConsumption,
+}
+
+option CustomConsumption.PillsVitaminsConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = PillsVitaminsConsumption,
+}
+
+option CustomConsumption.SubCategory
+{
+	type = boolean, default = 0,
+	page = CustomConsumption, translation = SubCategory,
+}
+
+option CustomConsumption.HamRadioConsumption
+{
+	type = double, min = 0.5, max = 1000, default = 1,
+	page = CustomConsumption, translation = HamRadioConsumption,
+}
+
+option CustomConsumption.RadioConsumption
+{
+	type = double, min = 0.5, max = 1000, default = 1,
+	page = CustomConsumption, translation = RadioConsumption,
+}
+
+option CustomConsumption.WalkieTalkieConsumption
+{
+	type = double, min = 0.5, max = 1000, default = 1,
+	page = CustomConsumption, translation = WalkieTalkieConsumption,
+}
+
+option CustomConsumption.SubCategory
+{
+	type = boolean, default = 0,
+	page = CustomConsumption, translation = SubCategory,
+}
+
+option CustomConsumption.ColoredPaintsConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = ColoredPaintsConsumption,
+}
+
+option CustomConsumption.GravelBagConsumption
+{
+	type = double, min = 0.25, max = 1000, default = 1,
+	page = CustomConsumption, translation = GravelBagConsumption,
+}
+
+option CustomConsumption.SandBagConsumption
+{
+	type = double, min = 0.25, max = 1000, default = 1,
+	page = CustomConsumption, translation = SandBagConsumption,
+}
+
+option CustomConsumption.DirtBagConsumption
+{
+	type = double, min = 0.25, max = 1000, default = 1,
+	page = CustomConsumption, translation = DirtBagConsumption,
+}
+
+option CustomConsumption.CompostBagConsumption
+{
+	type = double, min = 0.25, max = 1000, default = 1,
+	page = CustomConsumption, translation = CompostBagConsumption,
+}
+
+option CustomConsumption.PlasterBucketConsumption
+{
+	type = double, min = 0.01, max = 1000, default = 1,
+	page = CustomConsumption, translation = PlasterBucketConsumption,
+}
+
+option CustomConsumption.SubCategory
+{
+	type = boolean, default = 0,
+	page = CustomConsumption, translation = SubCategory,
+}
+
+option CustomConsumption.GardeningSprayConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = GardeningSprayConsumption,
+}
+
+option CustomConsumption.FertilizerConsumption
+{
+	type = double, min = 0.25, max = 1000, default = 1,
+	page = CustomConsumption, translation = FertilizerConsumption,
+}
+
+option CustomConsumption.WateredCanFullConsumption
+{
+	type = double, min = 0.025, max = 1000, default = 1,
+	page = CustomConsumption, translation = WateredCanFullConsumption,
+}
+
+option CustomConsumption.BucketWaterConsumption
+{
+	type = double, min = 0.04, max = 1000, default = 1,
+	page = CustomConsumption, translation = BucketWaterConsumption,
+}
+
+option CustomConsumption.PaintBucketWaterConsumption
+{
+	type = double, min = 0.04, max = 1000, default = 1,
+	page = CustomConsumption, translation = PaintBucketWaterConsumption,
+}
+
+option CustomConsumption.SubCategory
+{
+	type = boolean, default = 0,
+	page = CustomConsumption, translation = SubCategory,
+}
+
+option CustomConsumption.ExtinguisherConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = ExtinguisherConsumption,
+}
+
+option CustomConsumption.FishingLineConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = FishingLineConsumption,
+}
+
+option CustomConsumption.GunPowderConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = GunPowderConsumption,
+}
+
+option CustomConsumption.CharcoalConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = CharcoalConsumption,
+}
+
+option CustomConsumption.HairDyesConsumption
+{
+	type = double, min = 0.5, max = 1000, default = 1,
+	page = CustomConsumption, translation = HairDyesConsumption,
+}
+
+option CustomConsumption.SubCategory
+{
+	type = boolean, default = 0,
+	page = CustomConsumption, translation = SubCategory,
+}
+
+option CustomConsumption.FlourConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = FlourConsumption,
+}
+
+option CustomConsumption.BakingSodaConsumption
+{
+	type = double, min = 0.1, max = 1000, default = 1,
+	page = CustomConsumption, translation = BakingSodaConsumption,
+}
+
+option CustomConsumption.YeastConsumption
+{
+	type = double, min = 0.2, max = 1000, default = 1,
+	page = CustomConsumption, translation = YeastConsumption,
+}
+
+option CustomConsumption.VinegarConsumption
+{
+	type = double, min = 0.2, max = 1000, default = 1,
+	page = CustomConsumption, translation = VinegarConsumption,
+}
+
+option CustomConsumption.PancakeMixConsumption
+{
+	type = double, min = 0.25, max = 1000, default = 1,
+	page = CustomConsumption, translation = PancakeMixConsumption,
+}
+
+option CustomConsumption.GravyMixConsumption
+{
+	type = double, min = 0.5, max = 1000, default = 1,
+	page = CustomConsumption, translation = GravyMixConsumption,
+}

@@ -1,0 +1,5 @@
+name=K28 - Objetos innamovibles
+id=K28_Static
+description=Basado en buffy's infinite generators, habilitar al administrador fijar objetos para que no puedan ser movidos por jugadores
+poster=poster.png
+versionMin=41.77

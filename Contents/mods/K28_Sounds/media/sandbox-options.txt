@@ -1,0 +1,7 @@
+VERSION = 1,
+
+option K28Sonidos.Distancia
+{
+  type = integer, min = 1, max = 1440, default = 300,
+  page = K28Sonidos,  translation = K28SonidosDistancia
+}
