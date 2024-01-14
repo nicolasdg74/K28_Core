@@ -1,6 +1,6 @@
 version=1
-id=3059114288
-title=K28 Core Mods
+id=3125179509
+title=TEST - K28 Core Mods
 description=Work in Progress.
 description=
 description=Pack de mods orientados considerados Core para servidor privado K28

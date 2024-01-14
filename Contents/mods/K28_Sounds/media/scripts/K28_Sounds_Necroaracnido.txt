@@ -1,0 +1,22 @@
+module Base
+{
+		
+	sound sonidos_Necroaracnido_001
+	{
+		category = UI,
+		clip { file = media/sound/necroaracnido/sonidos_Necroaracnido_001.ogg, is3D = true, volume = 0.40, }
+	}
+	
+	sound sonidos_Necroaracnido_002
+	{
+		category = UI,
+		clip { file = media/sound/necroaracnido/sonidos_Necroaracnido_002.ogg, is3D = true, volume = 0.40, }
+	}
+		
+	sound sonidos_Necroaracnido_003
+	{
+		category = UI,
+		clip { file = media/sound/necroaracnido/sonidos_Necroaracnido_003.ogg, is3D = true, volume = 0.40, }
+	}
+		
+}

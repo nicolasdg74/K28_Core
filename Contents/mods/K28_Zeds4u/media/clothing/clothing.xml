@@ -2,12 +2,12 @@
 <outfitManager>
 
 	<m_MaleOutfits>
-		<m_Name>NBEntity</m_Name>
-		<m_Guid>backroom-8b96-4cfe-bf5c-7e9b91484ed5</m_Guid>
+		<m_Name>Entidad</m_Name>   <!-- The Name of the zombie outfit, it will appear like this in the debug list of Zombie manager -->
+		<m_Guid>backroom-8b96-4cfe-bf5c-7e9b91484ed5</m_Guid>	<!-- The outfit needs a new GUID. Get a new GUID. -->
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
-		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowPantsHue>false</m_AllowPantsHue>		<!-- No pants hue change to the textures -->
+		<m_AllowTopTint>false</m_AllowTopTint>			<!-- No top tint to the textures -->
 		<m_items>
 			<probability>1</probability>
 			<itemGUID>backroom-back-room-sync-000000000000</itemGUID>
@@ -15,7 +15,7 @@
 	</m_MaleOutfits>
 
 	<m_FemaleOutfits>
-		<m_Name>NBEntity</m_Name>
+		<m_Name>Entidad</m_Name>
 		<m_Guid>backroom-8b96-4cfe-bf5c-7e9b91484ed5</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -26,5 +26,20 @@
 			<itemGUID>backroom-back-room-sync-000000000000</itemGUID>
 		</m_items>
 	</m_FemaleOutfits>
+
+
+	<m_MaleOutfits>
+		<m_Name>Necroaracnido</m_Name>                                <!-- The Name of the zombie outfit, it will appear like this in the debug list of Zombie manager -->
+		<m_Guid>a6c66b10-7ffd-421a-bd0d-8be577a16363</m_Guid>               <!-- The outfit needs a new GUID. Get a new GUID. -->
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>                            <!-- No pants hue change to the textures -->
+		<m_AllowTopTint>false</m_AllowTopTint>                              <!-- No top tint to the textures -->
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>                      <!-- No decal allowed on shirt -->
+
+		<m_items> 
+			<itemGUID>k28skin0-0000-0000-0000-000000000001</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
 
 </outfitManager>

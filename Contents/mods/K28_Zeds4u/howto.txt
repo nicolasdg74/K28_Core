@@ -1,0 +1,7 @@
+
+media\fileGuidTable.xml
+media\clothing\clothingItems\entidad.xml <- indicado en fileGuidTable.xml
+media\clothing\clothing.xml <- NO RENOMBRAR
+media\models_X\skinned\clothes\entidad.fbx <- indicado en clothing\clothingItems\entidad.xml
+media\textures\clothes\Entity\entidad.png <- indicado en clothing\clothingItems\entidad.xml
+media\scripts\clothing\pielEntidad.txt <- [ClothingItem] Specifies the .xml name of the clothing element script media\clothing\clothingItems\
