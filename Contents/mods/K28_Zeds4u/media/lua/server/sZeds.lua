@@ -28,17 +28,17 @@ local SPEED_SHAMBLER = 3
 
 local CLASS_SPRINTER = "Sprinter"
 local CLASS_TANK = "Tank"
-local CLASS_ENTITY = "Entity"
+local CLASS_ENTIDAD = "Entidad"
+local CLASS_NECROARACNIDO = "Necroaracnido"
 
 local function update_Zed(_zombie, _class)
-	if (_class == CLASS_ENTITY) then
+	if (_class == CLASS_ENTIDAD) then
 		getSandboxOptions():set("ZombieLore.Speed", SPEED_FAST_SHAMBLER)
 		_zombie:makeInactive(true)
 		_zombie:makeInactive(false)
 		_zombie:DoZombieStats()
 		_zombie:setHealth(30)
 		local zid = _zombie:getOnlineID()
-		print ("[amore.debug] - New Zed ".._class.." - Online ZombieID: " .. tostring(zid)) -- .. " - OnlineID: " .. tostring(_zombie:OnlineID) )
 		getSandboxOptions():set("ZombieLore.Speed", SPEED_FAST_SHAMBLER)
 	end
 
@@ -50,18 +50,16 @@ local function update_Zed(_zombie, _class)
 		_zombie:DoZombieStats()
 		_zombie:setHealth(30)
 		local zid = _zombie:getOnlineID()
-		print ("[amore.debug] - New Zed ".._class.." - Online ZombieID: " .. tostring(zid)) -- .. " - OnlineID: " .. tostring(_zombie:OnlineID) )
 		getSandboxOptions():set("ZombieLore.Speed", SPEED_FAST_SHAMBLER)
 	end
 
-	if (_class == CLASS_SPRINTER) then
+	if ((_class == CLASS_SPRINTER) or (_class == CLASS_NECROARACNIDO)) then
 		getSandboxOptions():set("ZombieLore.Speed", SPEED_SPRINTER)
 		_zombie:makeInactive(true)
 		_zombie:makeInactive(false)
 		_zombie:DoZombieStats()
 		_zombie:setHealth(2)
 		local zid = _zombie:getOnlineID()
-		print ("[amore.debug] - Server - Update Zed SPRINTER - ZombieID: " .. tostring(zid)) -- .. " - OnlineID: " .. tostring(_zombie:OnlineID))
 		getSandboxOptions():set("ZombieLore.Speed", SPEED_FAST_SHAMBLER)
 	end
 end
@@ -99,7 +97,6 @@ function ClientCommands.summon(player, args)
     local playerOnlineID = player:getOnlineID()
 	local posX, posY, posZ = math.floor(player:getX()), math.floor(player:getY()), math.floor(player:getZ())
 
-	print ("[Amore.Debug] - Zeds4u summon "..args.zedClass)
 	if (args.zedClass == CLASS_SPRINTER) then
 		local outfit = "FitnessInstructor"
 		local femaleChance = 50
@@ -116,8 +113,17 @@ function ClientCommands.summon(player, args)
 		update_Zed(zombie, args.zedClass)
 	end
 
-	if (args.zedClass == CLASS_ENTITY) then
-		local outfit = "NBEntity"
+	if (args.zedClass == CLASS_ENTIDAD) then
+		local outfit = "Entidad"
+		local femaleChance = 0
+		local zombies = addZombiesInOutfit(posX, posY, posZ, 1, outfit, femaleChance)
+		local zombie = zombies:get(0)
+		update_Zed(zombie, args.zedClass)
+		specialZedList:add(zombie)
+	end
+
+	if (args.zedClass == CLASS_NECROARACNIDO) then
+		local outfit = "Necroaracnido"
 		local femaleChance = 0
 		local zombies = addZombiesInOutfit(posX, posY, posZ, 1, outfit, femaleChance)
 		local zombie = zombies:get(0)

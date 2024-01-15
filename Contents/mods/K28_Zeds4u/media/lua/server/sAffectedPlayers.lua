@@ -4,7 +4,7 @@
 function getAffectedPlayersBySpecialZombie(zombie)
     if zombie == nil then return ArrayList.new() end
     local zombieSquare = zombie:getSquare()
-    print ("[Amore.Debug] - zombieSquare: x: "..tostring(zombieSquare:getX()).." - y: "..tostring(zombieSquare:getY()))
+    -- print ("[Amore.Debug] - zombieSquare: x: "..tostring(zombieSquare:getX()).." - y: "..tostring(zombieSquare:getY()))
     local players = getOnlinePlayers()
     local affectedPlayers = ArrayList.new()
     local zombieSpecialArea = 10

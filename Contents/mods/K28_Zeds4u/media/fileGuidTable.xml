@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <fileGuidTable>
 	<files>
-		<path>media/clothing/clothingItems/Entity.xml</path>
-		<guid>backroom-back-room-sync-000000000000</guid>
+		<path>media/clothing/clothingItems/entidad.xml</path>
+		<guid>k28skin0-0000-0000-0000-000000000000</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/necroaracnido.xml</path>
+		<guid>k28skin0-0000-0000-0000-000000000001</guid>
 	</files>
 </fileGuidTable>

@@ -1,11 +1,11 @@
 module Base
 {
-    item Piel
+    item PielEntidad                        /* Todas las pieles de los Zeds deben ser PielXxxxxx para facilitar la busqueda */
     {
 	    DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Entity,
-        ClothingItem = Entity,
+        DisplayName = Piel de entidad,      /* Nombre que se muestra a los jugadores */
+        ClothingItem = entidad,             /* Specifies the .xml name of the clothing element script */ 
         BodyLocation = FullSuit,
         BloodLocation = Trousers;Jumper,
         IconsForTexture = JacketSuitTux;JacketSuitTuxBrown;JacketSuitTuxGrey,
@@ -17,7 +17,7 @@ module Base
         WindResistance = 0.2,
         FabricType = Cotton,
         Weight = 200,
-        CanHaveHoles = false,
+        CanHaveHoles = false,               /* Importante False para que no se vean agujeros */
         WorldStaticModel = WeddingJacket_Ground,
     }
 

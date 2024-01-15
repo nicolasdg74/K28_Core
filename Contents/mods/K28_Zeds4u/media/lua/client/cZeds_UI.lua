@@ -27,7 +27,8 @@ zeds4u_ContextMenu.doMenu = function(player, context, worldobjects, test)
     subMenu:addOption("Search Zeds", playerObj, zeds4u_ContextMenu.searchZeds);
     subMenu:addOption("Sprinter", playerObj, zeds4u_ContextMenu.summon, "Sprinter");
     subMenu:addOption("Tank", playerObj, zeds4u_ContextMenu.summon, "Tank");
-    subMenu:addOption("Entidad", playerObj, zeds4u_ContextMenu.summon, "Entity");
+    subMenu:addOption("Entidad", playerObj, zeds4u_ContextMenu.summon, "Entidad");
+    subMenu:addOption("Necroaracnido", playerObj, zeds4u_ContextMenu.summon, "Necroaracnido");
 
 end
 Events.OnFillWorldObjectContextMenu.Add(zeds4u_ContextMenu.doMenu);

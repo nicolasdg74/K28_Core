@@ -1,0 +1,18 @@
+module Base
+{
+	item PielNecroaracnido                           /* Todas las pieles de los Zeds deben ser PielXxxxxx para facilitar la busqueda */
+    {
+	    DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Piel de necroaracnido,        /* Nombre que se muestra a los jugadores */
+        ClothingItem = necroaracnido,               /* Specifies the .xml name of the clothing element script */ 
+        BodyLocation = Hat,
+        IconsForTexture = JacketSuitTux;JacketSuitTuxBrown;JacketSuitTuxGrey,
+		BloodLocation = Head,
+        ChanceToFall = 0,
+        WorldStaticModel = WeddingJacket_Ground,
+		Weight = 200,
+    }
+
+
+}
