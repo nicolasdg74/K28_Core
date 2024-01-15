@@ -2,7 +2,7 @@
 <clothingItem>
 	<m_MaleModel>skinned\clothes\entidad</m_MaleModel> <!-- ruta del fichero .fbx sin la extension dentro de la carpeta models_X  -->
 	<m_FemaleModel>skinned\clothes\entidad</m_FemaleModel> <!-- ruta del fichero .fbx sin la extension dentro de la carpeta models_X  -->
-	<m_GUID>backroom-back-room-sync-000000000000</m_GUID> <!-- cogerlo del itemGUID de ../clothing.xml  -->
+	<m_GUID>k28skin0-0000-0000-0000-000000000000</m_GUID> <!-- cogerlo del itemGUID de ../clothing.xml  -->
 	<m_Static>false</m_Static>
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
